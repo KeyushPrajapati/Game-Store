@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+     } 
+body{
+    background-color:#082032 !important;
+}
+.navbar{
+    background-color:#05131e !important;
+}
+.nav-link{
+    font-family: poppins;
+    letter-spacing: 1px; 
+    font-size: 20px !important;
+    color: white !important;
+    padding: 0px 15px !important;
+}
+.nav-link:hover{
+    color: red !important;
+    border-left:1px solid red ;
+    border-right:1px solid red ;
+ 
+    transition: 0.3s !important;
+}
+
+
+.navbar-brand > img{
+width: 130px;
+}
+.nav-link:hover{
+    color: red;
+}
+#myCheck
+/* ------------------------------------------------------------------  section-1 is here */
+.carousel-box{
+   margin-top: 100px !important ;
+}
+/* ------------------------------------------------------------------  section-2 is here */
+.row{
+    margin:40px 0px ;
+}
+.popular-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: 'poppins';
+    /* border-bottom: 1px solid red; */
+    width: 100%;
+    text-align: center;
+
+}
+.popular-container{
+    padding: 20px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.185);
+    
+}
+.card-title{
+    font-size: 22px !important;
+}
+.view-all{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+.view-all:hover{
+    color: white;
+    text-decoration: underline;
+}
+.card{
+    background-image: linear-gradient(#08203200 40%,#051623b9);
+}
+.card:hover{
+    background-image: linear-gradient(#08203200 10%,#03101a);
+}
+
+/* dropdown is here --------------------------------------------------------- */
+.dropdown-item{
+    color:white !important;
+}
+.dropdown-menu{
+    background-color: red !important;
+}
+.dropdown-item:hover{
+    color:rgb(16, 16, 16) !important;
+}
+.dropdown-item:active{
+    background-color: rgba(255, 198, 198, 0.9) !important;
+}
+@media screen and (max-width:1240px) {
+    .col{
+        margin-top: 20px !important;
+    }
+}
+/* ------------------------------------------------------------------  Footer is here */
+footer{
+    background-color: #05131e;
+}
+.footer-link{
+    margin-right:14px;
+    
+}
+.copyright{
+    color: rgb(202, 202, 202);
+}

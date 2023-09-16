@@ -1,0 +1,29 @@
+#g-info{
+    display: none;
+}
+/* video is here ------------------------------------------------------------------------------------ */
+.video-intro{
+position: relative;
+overflow: hidden;
+padding: 0 5%;
+height: 100vh;
+}
+.video-intro::before{
+    content: '';
+    background-color: #08203284;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+}
+.video-text{
+    position: absolute;
+    /* z-index: 1; */
+}
+.video-text > h2{
+    font-size: 90px !important;
+    font-family: anton;
+}
+.video-text > h3{
+    font-family: 'poppins';
+    font-size: 40px;
+}
